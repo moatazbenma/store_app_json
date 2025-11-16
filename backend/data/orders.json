@@ -1,3 +1,41 @@
 [
-  { "id": 1, "userId": 1, "productIds": [1, 2], "total": 65.98 }
+  {
+    "id": 1,
+    "userId": 1,
+    "productIds": [
+      1,
+      2
+    ],
+    "total": 65.98
+  },
+  {
+    "id": 1763274915508,
+    "user": "Guest",
+    "items": [
+      {
+        "id": 3,
+        "name": "USB-C Hub",
+        "price": 29.99,
+        "image": "https://images.pexels.com/photos/20076003/pexels-photo-20076003.jpeg",
+        "quantity": 1
+      }
+    ],
+    "total": 29.99,
+    "date": "2025-11-16T06:35:15.508Z"
+  },
+  {
+    "id": 1763274990974,
+    "user": "Guest",
+    "items": [
+      {
+        "id": 7,
+        "name": "Laptop Stand",
+        "price": 24.99,
+        "image": "https://images.pexels.com/photos/8534454/pexels-photo-8534454.jpeg",
+        "quantity": 1
+      }
+    ],
+    "total": 24.99,
+    "date": "2025-11-16T06:36:30.974Z"
+  }
 ]

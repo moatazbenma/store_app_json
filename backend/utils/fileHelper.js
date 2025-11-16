@@ -4,12 +4,13 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const dataDir = path.join(__dirname, '..', 'data');
+
+export const dataDir = path.join(__dirname, '..', 'data'); // points to backend/data
 
 export const readJSON = (fileName) => {
   const filePath = path.join(dataDir, fileName);
   if (!fs.existsSync(filePath)) {
-    fs.writeFileSync(filePath, '[]'); // Auto-create empty file
+    fs.writeFileSync(filePath, '[]', 'utf-8'); // auto-create file
   }
   const data = fs.readFileSync(filePath, 'utf-8');
   return JSON.parse(data || '[]');
